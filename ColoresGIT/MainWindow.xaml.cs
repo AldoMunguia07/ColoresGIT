@@ -24,5 +24,34 @@ namespace ColoresGIT
         {
             InitializeComponent();
         }
+
+        private void btnRed_Click(object sender, RoutedEventArgs e)
+        {
+            Red red = new Red();
+            red.Show();
+            this.Close();
+
+        }
+
+        private void btnAzul_Click(object sender, RoutedEventArgs e)
+        {
+            Blue blue = new Blue();
+            blue.Show();
+            this.Close();
+        }
+
+        private void btnVerde_Click(object sender, RoutedEventArgs e)
+        {
+            Green green = new Green();
+            green.Show();
+            this.Close();
+        }
+
+        private void btnAmarillo_Click(object sender, RoutedEventArgs e)
+        {
+            Yellow yellow = new Yellow();
+            yellow.Show();
+            this.Close();
+        }
     }
 }
