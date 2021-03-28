@@ -58,6 +58,9 @@
     <Compile Include="Blue.xaml.cs">
       <DependentUpon>Blue.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Green.xaml.cs">
+      <DependentUpon>Green.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Red.xaml.cs">
       <DependentUpon>Red.xaml</DependentUpon>
     </Compile>
@@ -65,6 +68,10 @@
       <DependentUpon>Yellow.xaml</DependentUpon>
     </Compile>
     <Page Include="Blue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Green.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
